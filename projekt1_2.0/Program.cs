@@ -1,5 +1,4 @@
 ﻿using System.Numerics;
-using projekt1;
 using Raylib_cs;
 
 Raylib.InitWindow(1000, 800, "Game");
