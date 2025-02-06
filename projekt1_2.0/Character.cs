@@ -1,7 +1,5 @@
 using Raylib_cs;
 using System.Numerics;
-using System.Runtime.CompilerServices;
-
 
 public class Character
 {
@@ -17,6 +15,7 @@ public class Character
     protected Vector2 movement = new Vector2(0, 0);
     protected float speed = 5;
     protected bool isFacingRight = true;
+    protected int hp;
 
     public void DrawCharacter() //ritar karaktären höger och vänster beroende på vilket håll man går åt
     {

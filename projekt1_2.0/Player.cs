@@ -1,11 +1,11 @@
 using Raylib_cs;
 using System.Numerics;
 
-public class Player : Character
+public class Player : Character, ILivingThing
 {
     public Player(string imgR, string imgL, Rectangle rect) : base(imgR, imgL, rect){}
 
-    public void Movement() //gör att spelaren kan röra sig höger/vänster
+    public void Move() //gör att spelaren kan röra sig höger/vänster
     {
         movement = Vector2.Zero;
 
@@ -26,5 +26,16 @@ public class Player : Character
 
         rectangle.X += movement.X;
         rectangle.Y += movement.Y;
+    }
+
+
+    public void Attack()
+    {
+
+    }
+
+    public void TakeDamage()
+    {
+
     }
 }

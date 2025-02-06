@@ -2,8 +2,7 @@ using Raylib_cs;
 
 public class Wall : Thing
 {
-    public Wall(float x, float y, float b, float h) : base(x, y, b, h)
-    {}
+    public Wall(Rectangle Rect) : base(Rect){}
 
     // public void YouShallNotPass(Rectangle rect, )
     // {
