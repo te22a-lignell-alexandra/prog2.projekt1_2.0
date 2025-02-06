@@ -23,3 +23,4 @@ c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.projekt1_2.0\projekt
 c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.projekt1_2.0\projekt1_2.0\bin\Debug\net9.0\flame-sword.png
 c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.projekt1_2.0\projekt1_2.0\bin\Debug\net9.0\papillon.png
 c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.projekt1_2.0\projekt1_2.0\bin\Debug\net9.0\papillon_right.png
+c:\Users\alexandra.lignell\Documents\Programmering\C#\prog2.projekt1_2.0\projekt1_2.0\obj\Debug\net9.0\projekt1_2.0.sourcelink.json
