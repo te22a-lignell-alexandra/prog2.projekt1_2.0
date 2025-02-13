@@ -5,7 +5,7 @@ public class Thing
     protected Rectangle rect;
     public Thing(Rectangle Rect)
     {
-        Rectangle rect = Rect;
+        rect = Rect;
     }
 
     public bool Collision(Rectangle characterRect, Rectangle rect)
@@ -15,5 +15,10 @@ public class Thing
             return true;
         }
         else return false;
+    }
+
+    public Rectangle GetRect()
+    {
+        return rect;
     }
 }
