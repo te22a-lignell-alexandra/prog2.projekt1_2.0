@@ -17,7 +17,7 @@ public class Character
     protected bool isFacingRight = true;
     protected int hp;
 
-    public void DrawCharacter() //ritar karaktären höger och vänster beroende på vilket håll man går åt
+    public void DrawCharacter() //ritar karaktären riktad åt höger eller vänster beroende på vilket håll man går åt
     {
         if (isFacingRight)
         {

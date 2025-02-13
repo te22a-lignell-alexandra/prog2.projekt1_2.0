@@ -2,6 +2,7 @@ using Raylib_cs;
 
 public class Thing
 {
+    protected Rectangle rect;
     public Thing(Rectangle Rect)
     {
         Rectangle rect = Rect;
